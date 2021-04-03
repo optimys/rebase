@@ -23,6 +23,7 @@ const user = {
 //Use user as proto for sub user
 const subUser = Object.create(user)
 subUser.fullName = 'Pitter Griffen'
+subUser.age = 26
 
 console.log(user.fullName)
 console.log(user.sayHello(subUser))
