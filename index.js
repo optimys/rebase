@@ -1,13 +1,11 @@
 'use strict'
 
 const user = {
-    name: 'Alex',
-    lastName: 'Kalashnikov',
     set age(age){
-        this.age = age
+        this.oldis = age
     },
     get age(){
-        return this.age
+        return this.oldis
     },
     get fullName(){
         return `${this.name} ${this.lastName}`
