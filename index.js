@@ -10,3 +10,5 @@ const user = {
         return `Hello ${name}, nice to meet you, my name is ${this.fullName}`
     }
 }
+
+console.log(user.fullName)
