@@ -3,7 +3,12 @@
 const user = {
     name: 'Alex',
     lastName: 'Kalashnikov',
-    age: 36,
+    set age(age){
+        this.age = age
+    },
+    get age(){
+        return this.age
+    },
     get fullName(){
         return `${this.name} ${this.lastName}`
     },
