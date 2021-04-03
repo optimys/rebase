@@ -12,6 +12,7 @@ const user = {
     }
 }
 
+//Use user as proto for subusser
 const subUser = Object.create(user)
 subUser.name = 'Piter'
 
