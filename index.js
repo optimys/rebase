@@ -5,5 +5,8 @@ const user = {
     lastName: 'Kalashnikov',
     get fullName(){
         return `${this.name} ${this.lastName}`
+    },
+    sayHello(name){
+        return `Hello ${name}, nice to meet you, my name is ${this.fullName}`
     }
 }
