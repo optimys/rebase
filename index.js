@@ -3,6 +3,7 @@
 const user = {
     name: 'Alex',
     lastName: 'Kalashnikov',
+    age: 36,
     get fullName(){
         return `${this.name} ${this.lastName}`
     },
